@@ -1,0 +1,42 @@
+  1.  La commande git status permet d'afficher l'état des fichiers. Dans mon cas, elle a indiqué que le fichier README.md était non suivi (untracked).
+
+  2.  Après avoir utilisé git add, la commande git status a indiqué que le fichier README.md était maintenant prêt à être ajouté au commit (dans la staging area).
+
+  3.  En lançant la commande git add ., tous les fichiers ont été ajoutés à la staging area.
+
+  4.  J’ai effectué mon premier commit avec git commit, en rédigeant un message que j’ai ensuite sauvegardé.
+
+  5.  J’ai exécuté la commande git log, qui affiche l'historique des commits.
+
+  6.  La commande git diff montre les différences entre le dossier de travail et la staging area, tandis que git diff --staged compare la staging area avec le dernier commit.
+
+  7.      git show : affiche les détails d’un commit (message, changements effectués).
+
+        git status : indique l'état actuel des fichiers.
+
+        git diff : révèle les modifications non encore enregistrées dans un commit.
+
+        git log : liste tous les commits effectués.
+  8. En utilisant git status, j’ai constaté que fichier1.txt et brouillon.txt avaient été ajoutés à la staging area.
+
+9. La commande git reset brouillon.txt a retiré le fichier de la staging area, tout en le laissant dans le dossier sans qu’il soit pris en compte pour le prochain commit.
+
+  10. Après avoir utilisé git status, j’ai vu que brouillon.txt était de nouveau non suivi (untracked), donc il ne figurait pas dans le commit.
+
+  11.  Pour vérifier les éléments :
+
+    git status permet de voir les fichiers modifiés.
+
+    git log affiche l'historique des commits.
+
+    git diff montre les changements non commités.
+
+    git show présente les détails d'un commit.
+
+  12.  J’ai exécuté git push origin develop pour envoyer mes commits. Puis, j’ai vérifié avec git log ou sur GitHub que tout avait bien été transféré.
+
+  13.  La commande utilisée était : git clone https://github.com/PaulineLam24/TP-Git.git.
+
+   14. Fichier trouvé : README.md. Historique des commits avec git log --oneline : par exemple, "Ajout README", "Ajout infos".
+
+    15.J’ai comparé les commits avec git diff pour observer les changements effectués à chaque étape.
